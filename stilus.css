@@ -1,0 +1,26 @@
+
+body{
+    margin: 20px;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+td,th {
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+th{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+caption{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #cccccc;
+}
+tr:hover {background-color: #a2a2a2;}
